@@ -1,0 +1,18 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1755550705
+icon.svg::CompressedTexture2D/CompressedTexture2D::1934140353159014910::1755336951::1755336965::1::::<><><>0<>0<>d1c2d2b74a204fc3a9cb0da53e9cabf9<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+game_manager.gd::GDScript::7577750098642418022::1755550829::0::1::::<>Node<><>0<>0<><>::
+::res://assets/::1755337572
+Compass base.png::CompressedTexture2D/CompressedTexture2D::119730456354337478::1755337571::1755337572::1::::<><><>0<>0<>2760a3e496aa50c57d9bfb0cd9725399<>res://.godot/imported/Compass base.png-ddae1e51cac9bffb94b0d989c6cf9863.ctex::
+playerIcon.png::CompressedTexture2D/CompressedTexture2D::7456105196753925480::1755337564::1755337564::1::::<><><>0<>0<>cf333f1689d1717eb6fa00835f893988<>res://.godot/imported/playerIcon.png-68124937a160f7f7917bc7d8dbaf659d.ctex::
+pursuerDefault.png::CompressedTexture2D/CompressedTexture2D::3825004348597321772::1755337571::1755337572::1::::<><><>0<>0<>0bdb42e3a96b50defe7cfe8902e0caa7<>res://.godot/imported/pursuerDefault.png-68db4713738fbedaaa6ce55f06802e8c.ctex::
+pursuerLOS.png::CompressedTexture2D/CompressedTexture2D::6880685544182952061::1755337571::1755337572::1::::<><><>0<>0<>6978289d4430bffde3895f7fdf6e47c9<>res://.godot/imported/pursuerLOS.png-87040648f2f97c7bc2ce69f0abefb43e.ctex::
+Radial compass.png::CompressedTexture2D/CompressedTexture2D::9189694406060600430::1755337571::1755337572::1::::<><><>0<>0<>731d4557105da88bb58db0fd85e8b591<>res://.godot/imported/Radial compass.png-c1e675a9c6040ade040636095aa40d6e.ctex::
+target.png::CompressedTexture2D/CompressedTexture2D::8423574990931602368::1755337571::1755337572::1::::<><><>0<>0<>cbe26e758d2e67184227063a1d0157cb<>res://.godot/imported/target.png-52c019dda84da6fc854650719104c4ec.ctex::
+::res://scenes/::1755550705
+game.tscn::PackedScene::7316739779355932419::1755549342::0::1::::<><><>0<>0<><>::uid://cgam0jfe3d6nt::::res://scenes/player.tscn
+NPC.tscn::PackedScene::2196664633061979421::1755550721::0::1::::<><><>0<>0<><>::uid://dxxlqbg0btxbw::::res://scripts/npc.gd<>uid://deh170rgg303m::::res://assets/playerIcon.png
+player.tscn::PackedScene::5194748158628703073::1755550291::0::1::::<><><>0<>0<><>::uid://deh170rgg303m::::res://assets/playerIcon.png<>uid://dap3sib5puu48::::res://scripts/player.gd
+::res://scripts/::1755550705
+npc.gd::GDScript::8821782665650504284::1755550714::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::7191960360593472475::1755550291::0::1::::<>CharacterBody2D<><>0<>0<><>::

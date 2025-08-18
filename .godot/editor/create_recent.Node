@@ -1,0 +1,7 @@
+Label
+Node
+Sprite2D
+CharacterBody2D
+Camera2D
+CollisionShape2D
+RigidBody2D
