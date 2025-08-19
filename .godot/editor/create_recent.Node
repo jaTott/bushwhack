@@ -1,7 +1,10 @@
-Label
+TileMapLayer
+Camera2D
+Marker2D
+Node2D
 Node
+Label
 Sprite2D
 CharacterBody2D
-Camera2D
 CollisionShape2D
 RigidBody2D

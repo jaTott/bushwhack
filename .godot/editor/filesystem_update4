@@ -1,9 +1,4 @@
-res://scenes/player.tscn
-res://scenes/player.gd
 res://scenes/game.tscn
-res://scenes/NPC.tscn
-res://scenes/sprite2D.gd
-res://scripts/player.gd
-res://scripts/npc.gd
+res://scenes/player.tscn
 res://scripts/game_manager.gd
-res://scenes/game_manager.tscn
+res://scripts/player.gd
