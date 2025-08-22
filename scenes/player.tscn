@@ -1,10 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://cgam0jfe3d6nt"]
+[gd_scene load_steps=8 format=3 uid="uid://cgam0jfe3d6nt"]
 
 [ext_resource type="Texture2D" uid="uid://deh170rgg303m" path="res://assets/playerIcon.png" id="1_3vyb7"]
 [ext_resource type="Script" uid="uid://dap3sib5puu48" path="res://scripts/player.gd" id="1_g2els"]
 
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_g2els"]
+light_mode = 2
+
 [sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
 radius = 15.0
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_qhqgy"]
+light_mode = 2
 
 [sub_resource type="Gradient" id="Gradient_g2els"]
 offsets = PackedFloat32Array(0.675768, 0.682594)
@@ -20,6 +26,7 @@ metadata/_snap_enabled = true
 script = ExtResource("1_g2els")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_g2els")
 position = Vector2(0, -1.78814e-07)
 scale = Vector2(0.09375, 0.09375)
 texture = ExtResource("1_3vyb7")
@@ -28,6 +35,7 @@ texture = ExtResource("1_3vyb7")
 shape = SubResource("CircleShape2D_g2els")
 
 [node name="Label" type="Label" parent="."]
+material = SubResource("CanvasItemMaterial_qhqgy")
 offset_left = -40.0
 offset_top = 19.0
 offset_right = 40.0
@@ -38,5 +46,6 @@ vertical_alignment = 2
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 scale = Vector2(219.969, 142.75)
+energy = 0.4
 shadow_enabled = true
 texture = SubResource("GradientTexture2D_qhqgy")
