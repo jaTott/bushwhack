@@ -1,4 +1,4 @@
 res://scenes/game.tscn
 res://scenes/player.tscn
-res://scripts/game_manager.gd
+res://scenes/NPC.tscn
 res://scripts/player.gd

@@ -11,6 +11,7 @@ var is_boosting: bool = false
 func _ready():
 	$Sprite2D.modulate = player_color
 	$Label.set_text(player_name)
+	$PointLight2D.enabled = is_local
 	
 	# only the local player should have an active camera
 	#$Camera2D.enabled = is_local

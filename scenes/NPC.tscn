@@ -1,7 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://6kc0l441rch6"]
+[gd_scene load_steps=5 format=3 uid="uid://6kc0l441rch6"]
 
 [ext_resource type="Script" uid="uid://dxxlqbg0btxbw" path="res://scripts/npc.gd" id="1_6xvi5"]
 [ext_resource type="Texture2D" uid="uid://deh170rgg303m" path="res://assets/playerIcon.png" id="2_ktgr7"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_6xvi5"]
+light_mode = 2
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_g2els"]
 radius = 20.025
@@ -10,6 +13,7 @@ radius = 20.025
 script = ExtResource("1_6xvi5")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_6xvi5")
 position = Vector2(0, -1.78814e-07)
 scale = Vector2(0.09375, 0.09375)
 texture = ExtResource("2_ktgr7")
